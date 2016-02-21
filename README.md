@@ -13,7 +13,7 @@ npm install -S chance chancejs-iso3166
 ```js
 // initialize chance instance
 const Chance = require('chance');
-const chance = new Chance('seed');
+const chance = new Chance();
 
 // add this module as mixin
 chance.mixin({
