@@ -1,0 +1,33 @@
+{
+  "name": "chance-iso3166",
+  "version": "0.1.0",
+  "description": "Chance.js mixin to generate ISO-3166 country codes",
+  "main": "index.js",
+  "scripts": {
+    "test": "istanbul cover --print detail test/*.js",
+    "posttest": "istanbul check-coverage --statement 100 --branch 100"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leesei/chance-iso3166.git"
+  },
+  "keywords": [
+    "chance",
+    "chance-mixin",
+    "iso3166"
+  ],
+  "author": "leesei <leesei@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leesei/chance-iso3166/issues"
+  },
+  "homepage": "https://github.com/leesei/chance-iso3166#readme",
+  "devDependencies": {
+    "chance": "^1.0.0",
+    "istanbul": "^0.4.2",
+    "tape": "^4.4.0"
+  },
+  "peerDependencies": {
+    "chance": "^1.0.0"
+  }
+}
