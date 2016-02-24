@@ -1,6 +1,5 @@
 const test = require('tape');
-const Chance = require('chance');
-const chance = new Chance('seed');
+const chance = require('chance').Chance('seed');
 
 chance.mixin({
   iso3166: require('..')

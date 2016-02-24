@@ -1,6 +1,7 @@
 # chancejs-iso3166
 
 Chance.js mixin to generate ISO-3166 country codes
+Satisfies [this](https://github.com/victorquinn/chancejs/issues/219) feature request
 
 ## Install
 
@@ -12,8 +13,7 @@ npm install -S chance chancejs-iso3166
 
 ```js
 // initialize chance instance
-const Chance = require('chance');
-const chance = new Chance();
+const chance = require('chance').Chance();
 
 // add this module as mixin
 chance.mixin({
@@ -30,7 +30,6 @@ chance.iso3166();
   numeric: '268'
 }
 */
-
 ```
 
 ## Reference
@@ -38,6 +37,6 @@ chance.iso3166();
 [ISO 3166-1 - Wikiwand](http://www.wikiwand.com/en/ISO_3166-1)  
 [ISO 3166-2 - Wikiwand](http://www.wikiwand.com/en/ISO_3166-2)  
 
-[lukes/ISO-3166-Countries-with-Regional-Codes](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes) (`all.json` is pull from here)  
+[lukes/ISO-3166-Countries-with-Regional-Codes](https://github.com/lukes/ISO-3166-Countries-with-Regional-Codes) (`all.json` is pulled from here)  
 [datasets/country-codes](https://github.com/datasets/country-codes)  
 [mledoze/countries](https://github.com/mledoze/countries)  
