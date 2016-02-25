@@ -11,6 +11,10 @@
     "type": "git",
     "url": "git+https://github.com/leesei/chancejs-iso3166.git"
   },
+  "files": [
+    "index.js",
+    "all.json"
+  ],
   "keywords": [
     "chance",
     "chancejs",
