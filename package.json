@@ -1,5 +1,5 @@
 {
-  "name": "chancejs-iso3166",
+  "name": "chance-iso3166",
   "version": "0.1.0",
   "description": "Chance.js mixin to generate ISO-3166 country codes",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leesei/chancejs-iso3166.git"
+    "url": "git+https://github.com/leesei/chance-iso3166.git"
   },
   "files": [
     "index.js",
@@ -24,15 +24,15 @@
   "author": "leesei <leesei@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/leesei/chancejs-iso3166/issues"
+    "url": "https://github.com/leesei/chance-iso3166/issues"
   },
-  "homepage": "https://github.com/leesei/chancejs-iso3166#readme",
+  "homepage": "https://github.com/leesei/chance-iso3166#readme",
   "devDependencies": {
-    "chance": "^1.0.0",
+    "chance": "^1.0.1",
     "istanbul": "^0.4.2",
     "tape": "^4.4.0"
   },
   "peerDependencies": {
-    "chance": "^1.0.0"
+    "chance": "^1.0.1"
   }
 }

@@ -1,7 +1,7 @@
 const allCountries = require('./all.json');
 
 module.exports = function iso3166 (options) {
-  const country = this.pick(allCountries);
+  const country = this.pickone(allCountries);
 
   // expose our structure
   return {

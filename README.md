@@ -1,4 +1,4 @@
-# chancejs-iso3166
+# chance-iso3166
 
 Chance.js mixin to generate ISO-3166 country codes
 Satisfies [this](https://github.com/victorquinn/chancejs/issues/219) feature request
@@ -6,7 +6,7 @@ Satisfies [this](https://github.com/victorquinn/chancejs/issues/219) feature req
 ## Install
 
 ```sh
-npm install -S chance chancejs-iso3166
+npm install -S chance chance-iso3166
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ const chance = require('chance').Chance();
 
 // add this module as mixin
 chance.mixin({
-  iso3166: require('chancejs-iso3166')
+  iso3166: require('chance-iso3166')
 });
 
 // profit
