@@ -1,7 +1,6 @@
 # chance-iso3166
 
 Chance.js mixin to generate ISO-3166 country codes
-Satisfies [this](https://github.com/victorquinn/chancejs/issues/219) feature request
 
 ## Install
 
