@@ -3,6 +3,9 @@
   "version": "0.1.0",
   "description": "Chance.js mixin to generate ISO-3166 country codes",
   "main": "index.js",
+  "engines": {
+    "node": ">=4.0.0"
+  },
   "scripts": {
     "test": "istanbul cover --print detail test/*.js",
     "posttest": "istanbul check-coverage --statement 100 --branch 100"
